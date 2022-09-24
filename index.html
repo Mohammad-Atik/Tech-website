@@ -15,31 +15,31 @@
     <script src="https://cdn.tailwindcss.com"></script>
   </head>
   <body>
-
-  <!-- Header-Section -->
+    <div class="mx-auto">
+       <!-- Header-Section -->
   <div class="header-section">
-    <div class="navbar bg-base-100">
+    <div class="navbar h-20 fixed z-10 top-0 bg-base-100">
       <div class="navbar-start">
         <div class="dropdown lg:hidden">
           <label tabindex="0" class="btn btn-ghost btn-circle">
             <svg xmlns="http://www.w3.org/2000/svg" class="h-5 w-5" fill="none" viewBox="0 0 24 24" stroke="currentColor"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M4 6h16M4 12h16M4 18h7" /></svg>
           </label>
           <ul tabindex="0" class="menu menu-compact dropdown-content mt-3 p-2 shadow bg-base-100 rounded-box w-52">
-            <li><a>Homepage</a></li>
-            <li><a>Portfolio</a></li>
-            <li><a>About</a></li>
+            <li><a>Home</a></li>
+          <li><a>Courses</a></li>
+          <li><a>About</a></li>
+          <li><a>Register</a></li>
           </ul>
         </div>
-        <a class="btn btn-ghost normal-case text-xl">Sage Solution</a>
+        <a class="btn btn-ghost normal-case font-bold text-2xl">Sage Solution</a>
       </div>
 
-      <div class="navbar-center lg:visible sm:invisible">
-        <ul tabindex="0" class=" flex justify-between items-center p-2 w-96">
+      <div class="navbar-center lg:visible sm:invisible ">
+        <ul class=" flex justify-between items-center w-96 p-2 font-bold">
           <li><a>Home</a></li>
           <li><a>Courses</a></li>
-          <li><a>Deals</a></li>
-          <li><a>Success</a></li>
           <li><a>About</a></li>
+          <li><a>Register</a></li>
         </ul>
 
       </div>
@@ -94,6 +94,55 @@
       </div>
     </div>
 
-
+    <!-- Course Section -->
+    <div class="course-section my-24">
+      <h1 class="font-bold text-5xl text-center mb-24">Our Courses</h1>
+     <div class="courses grid grid-cols-2 gap-5">
+      <div class="card card-side border border-white-200 border-opacity-0 shadow-2xl ml-16 ">
+        <figure><img class='w-64' src="Images/course/fullstack.jpg" alt="Movie"/></figure>
+        <div class="card-body">
+          <h2 class="card-title">Fullstack Web Development</h2>
+          <p>We have technology, finally, that for the first time in human history allows people to really maintain rich connections with much larger numbers of people</p>
+        </div>
+      </div>
+      <div class="card card-side border border-white-200 border-opacity-0 shadow-2xl mr-16">
+        <figure><img class='w-64' src="Images/course/javascript.jpg" alt="Movie"/></figure>
+        <div class="card-body">
+          <h2 class="card-title">Javascript Basic to Advanced</h2>
+          <p>We have technology, finally, that for the first time in human history allows people to really maintain rich connections with much larger numbers of people</p>
+        </div>
+      </div>
+      <div class="card card-side border border-white-200 border-opacity-0 shadow-2xl ml-16 ">
+        <figure><img class='w-64' src="Images/course/ux-ui.jpg" alt="Movie"/></figure>
+        <div class="card-body">
+          <h2 class="card-title">
+            Fundamental Of UI/UX Design</h2>
+          <p>We have technology, finally, that for the first time in human history allows people to really maintain rich connections with much larger numbers of people</p>
+        </div>
+      </div>
+      <div class="card card-side border border-white-200 border-opacity-0 shadow-2xl mr-16">
+        <figure><img class='w-64' src="Images/course/digital.jpg" alt="Movie"/></figure>
+        <div class="card-body">
+          <h2 class="card-title">Digital Marketing</h2>
+          <p>We have technology, finally, that for the first time in human history allows people to really maintain rich connections with much larger numbers of people</p>
+        </div>
+      </div>
+      <div class="card card-side border border-white-200 border-opacity-0 shadow-2xl ml-16 ">
+        <figure><img class='w-64' src="Images/course/photo.jpg" alt="Movie"/></figure>
+        <div class="card-body">
+          <h2 class="card-title">Photography Basic Rules</h2>
+          <p>We have technology, finally, that for the first time in human history allows people to really maintain rich connections with much larger numbers of people</p>
+        </div>
+      </div>
+      <div class="card card-side border border-white-200 border-opacity-0 shadow-2xl mr-16">
+        <figure><img class='w-64' src="Images/course/motion.jpg" alt="Movie"/></figure>
+        <div class="card-body">
+          <h2 class="card-title">Motion Graphics</h2>
+          <p>We have technology, finally, that for the first time in human history allows people to really maintain rich connections with much larger numbers of people</p>
+        </div>
+      </div>
+      
+    </div>
+    </div>
   </body>
 </html>
